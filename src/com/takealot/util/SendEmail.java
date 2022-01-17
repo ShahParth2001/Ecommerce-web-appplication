@@ -13,9 +13,9 @@ import javax.mail.internet.MimeMessage;
 public class SendEmail {
 	public static void sendmail(String to,String text)
 	{
-		final String username = "jaingeneralstore3@gmail.com";
-		//final String username ="parthshah0801@gmail.com";
-		final String password = "rajesh@1968";
+		final String username = "abc@gmail.com";
+		
+		final String password = "#####";
 
 		Properties prop = new Properties();
 		prop.put("mail.smtp.host", "smtp.gmail.com");
